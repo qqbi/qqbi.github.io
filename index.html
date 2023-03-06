@@ -1,8 +1,7 @@
-<?php
-$new_url = 'https://dh.kaad.top/';
-// 发送301响应头
-header('HTTP/1.1 301 Moved Permanently');
-// 重定向到新网页
-header('Location: '.$new_url);
-// 结束脚本
-exit; ?>
+<?
+
+Header( "HTTP/1.1 301 Moved Permanently" );
+
+Header( "Location: https://dh.kaad.top/" );
+
+?> 
